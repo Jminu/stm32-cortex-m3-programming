@@ -111,7 +111,7 @@ int main(void)
 
   printf("[PRIO] ButtonIRQ > SYSTICK\n");
   HAL_NVIC_SetPriority(SysTick_IRQn, 14, 0); // lower
-  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 13, 0); // higher
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 13, 0); // higher , 외부 인터럽트(버튼)를 13으로 정함
 
   /* USER CODE END 2 */
 

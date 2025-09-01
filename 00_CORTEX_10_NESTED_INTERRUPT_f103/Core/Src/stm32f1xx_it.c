@@ -196,7 +196,12 @@ void SysTick_Handler(void)
   /* intentionally induce a delay
   	the purpose is to ensure good overlap
   	*/
+
+  __set_PRIMASK(1);
+
+  printf("SysTick Handler!\n");
   delay(100);
+
 
   /* USER CODE END SysTick_IRQn 1 */
 }
