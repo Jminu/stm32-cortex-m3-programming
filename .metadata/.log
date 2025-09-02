@@ -452,3 +452,66 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jinmi
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-01 19:26:20.658
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-02 09:43:20.543 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/jinmin-u/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jinmin-u/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-02 09:43:39.436
+!MESSAGE Log4j2 initialized with config file /Users/jinmin-u/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-02 09:43:58.027
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-02 09:48:28.802 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/jinmin-u/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jinmin-u/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-02 09:48:43.699
+!MESSAGE Log4j2 initialized with config file /Users/jinmin-u/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-02 09:49:01.727
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-02 09:51:12.738 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/jinmin-u/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jinmin-u/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-02 09:51:28.780
+!MESSAGE Log4j2 initialized with config file /Users/jinmin-u/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-02 09:51:46.577
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-02 11:07:32.329
+!MESSAGE Indexed '02_INTERRUPT_01_INTERNAL_BUTTON_KEY_f103' (20 sources, 103 headers) in 8.76 sec: 7,232 declarations; 24,081 references; 2 unresolved inclusions; 279 syntax errors; 186 unresolved names (0.59%)
+
+!ENTRY org.eclipse.jface 2 0 2025-09-02 13:35:43.860
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-09-02 13:35:43.860
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Searches for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.search.finddecl"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.command.gotoaddress,Go to Address,
+		Go to Address,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memory.abstractasynctablerendering,,,system)

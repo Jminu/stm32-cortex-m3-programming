@@ -1,0 +1,10 @@
+13:25:14 **** Incremental Build of configuration Debug for project 02_INTERRUPT_01_INTERNAL_BUTTON_KEY_f103 ****
+make -j7 all 
+arm-none-eabi-size  02_INTERRUPT_01_INTERNAL_BUTTON_KEY_f103.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32528	    120	   2016	  34664	   8768	02_INTERRUPT_01_INTERNAL_BUTTON_KEY_f103.elf
+Finished building: default.size.stdout
+ 
+
+13:25:14 Build Finished. 0 errors, 0 warnings. (took 307ms)
+
