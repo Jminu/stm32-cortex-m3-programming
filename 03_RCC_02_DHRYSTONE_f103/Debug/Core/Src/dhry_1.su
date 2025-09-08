@@ -1,0 +1,7 @@
+../Core/Src/dhry_1.c:54:6:report	8	static
+../Core/Src/dhry_1.c:113:6:dhry	104	static
+../Core/Src/dhry_1.c:329:6:Proc_1	32	static
+../Core/Src/dhry_1.c:360:6:Proc_2	24	static
+../Core/Src/dhry_1.c:382:6:Proc_3	16	static
+../Core/Src/dhry_1.c:393:6:Proc_4	16	static
+../Core/Src/dhry_1.c:403:6:Proc_5	4	static

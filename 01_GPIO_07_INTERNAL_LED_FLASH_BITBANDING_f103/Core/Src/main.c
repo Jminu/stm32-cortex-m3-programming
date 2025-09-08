@@ -122,12 +122,12 @@ int main(void)
   	volatile uint32_t* rGPIOA_BSRR=(uint32_t*)0x40010810;
   	if( *rGPIOA_ODR & (1<<5) )
   	{
-  		//*rGPIOA_ODR = *rGPIOA_ODR &~ (1<<5); // LED 'OFF'
-  		*rGPIOA_BSRR = (1<<(5+16));
+  		*rGPIOA_ODR = *rGPIOA_ODR &~ (1<<5); // LED 'OFF'
+  		//*rGPIOA_BSRR = (1<<(5+16));
   		//*GPIOA_PIN5 = 0;
   	}else{
-  		//*rGPIOA_ODR = *rGPIOA_ODR | (1<<5); // LED 'ON'
-  		*rGPIOA_BSRR = (1<<5);
+  		*rGPIOA_ODR = *rGPIOA_ODR | (1<<5); // LED 'ON'
+  		//*rGPIOA_BSRR = (1<<5);
   		//*GPIOA_PIN5 = 1;
   	}
     HAL_Delay(250);

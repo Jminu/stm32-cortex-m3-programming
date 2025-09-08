@@ -1,0 +1,10 @@
+15:13:10 **** Incremental Build of configuration Debug for project 01_GPIO_07_INTERNAL_LED_FLASH_BITBANDING_f103 ****
+make -j7 all 
+arm-none-eabi-size  01_GPIO_07_INTERNAL_LED_FLASH_BITBANDING_f103.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5488	     20	   1636	   7144	   1be8	01_GPIO_07_INTERNAL_LED_FLASH_BITBANDING_f103.elf
+Finished building: default.size.stdout
+ 
+
+15:13:10 Build Finished. 0 errors, 0 warnings. (took 211ms)
+
